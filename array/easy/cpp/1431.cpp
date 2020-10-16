@@ -6,19 +6,18 @@ using namespace std;
 class Solution {
 public:
     vector<bool> kidsWithCandies(vector<int>& candies, int extraCandies) {
-        vector<bool> kids;
+        vector<bool> kids; //* result
         //* 对于每个孩子计算加上额外糖果的值 看是否是此时糖果中最大的那个 如果是,则true 否则,false
-        for(int i=0;i<candies.size();i++){
+        for(int i=0;i<candies.size();i++){ //* 遍历每个孩子
             int plus_extra = extraCandies+candies[i];
             //* 是否是最大的
             int j=0;
             int max = plus_extra;
             bool flag = false;
-            while (j<candies.size())
-            {
+            while (j<candies.size()) {
                 if(j!=i){
                     if(max < candies[j]){
-                        kids.push_back(false);
+                        kids.push_back(false); //* 不是最大的
                         flag = true;
                         break;
                     }
@@ -26,7 +25,7 @@ public:
                 j++;
             }
             if(!flag){
-                kids.push_back(true);
+                kids.push_back(true); //* 是最大的
             } 
         }       
         return kids;
