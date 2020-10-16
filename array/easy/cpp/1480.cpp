@@ -7,7 +7,7 @@ public:
     /** 数组前i个数累加存储
      */
     vector<int> runningSum(vector<int>& nums) {
-       int size = nums.size();
+       int size = nums.size();      
        int sum = 0;
        vector<int> result;
        for(int i=0;i<size;i++){

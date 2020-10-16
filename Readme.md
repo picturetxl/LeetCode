@@ -10,10 +10,11 @@
 	/vscode-markdown-toc-config -->
 <!-- /vscode-markdown-toc -->
 
-##  1. <a name='Array'></a>Array
+## 1. <a name='Array'></a>Array
+
 - [CPP](cpp/Readme.md)
 - [C]()
 
-##  2. <a name='String'></a>String
+## 2. <a name='String'></a>String
 - [CPP]()
 - [C]()
