@@ -12,9 +12,6 @@
 
 ## 1. <a name='Array'></a>Array
 
-- [CPP](cpp/Readme.md)
-- [C]()
+- [Solution](array/Readme.md)
 
 ## 2. <a name='String'></a>String
-- [CPP]()
-- [C]()
